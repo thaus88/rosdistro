@@ -39,6 +39,7 @@ assimp:
   debian:
     sid: libassimp-dev
     wheezy: libassimp-dev
+    squeeze: libassimp-dev
   fedora: assimp-devel
   rhel: assimp-devel
   ubuntu:
@@ -269,6 +270,7 @@ eigen:
   debian:
     wheezy: libeigen3-dev
     sid: libeigen3-dev
+    squeeze: libeigen3-dev
   gentoo: '>=dev-cpp/eigen-3'
   ubuntu:
     apt:
