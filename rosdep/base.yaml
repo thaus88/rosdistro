@@ -39,7 +39,8 @@ assimp:
   debian:
     sid: libassimp-dev
     wheezy: libassimp-dev
-    squeeze: source: {md5sum: d5137302d8f00241ee10e623b97f9d22, uri: 'https://kforge.ros.org/rosrelease/viewvc/sourcedeps/assimp/assimp-2.0.86-1.rdmanifest'}
+    squeeze:
+      source: {md5sum: d5137302d8f00241ee10e623b97f9d22, uri: 'https://kforge.ros.org/rosrelease/viewvc/sourcedeps/assimp/assimp-2.0.86-1.rdmanifest'}
   fedora: assimp-devel
   rhel: assimp-devel
   ubuntu:
@@ -270,7 +271,8 @@ eigen:
   debian:
     wheezy: libeigen3-dev
     sid: libeigen3-dev
-    squeeze: source: {md5sum: 941db2fbb09d80c28426d335022fad95, uri: 'https://kforge.ros.org/rosrelease/viewvc/sourcedeps/eigen/eigen-3.0.1-1.rdmanifest'}
+    squeeze: 
+      source: {md5sum: 941db2fbb09d80c28426d335022fad95, uri: 'https://kforge.ros.org/rosrelease/viewvc/sourcedeps/eigen/eigen-3.0.1-1.rdmanifest'}
   gentoo: '>=dev-cpp/eigen-3'
   ubuntu:
     apt:
@@ -1454,7 +1456,8 @@ yaml-cpp:
     apt:
       wheezy: libyaml-cpp-dev
       sid: libyaml-cpp-dev
-    squeeze: source: {md5sum: f7fb81fd4a2fbd5022daa7686e816359, uri: 'https://kforge.ros.org/rosrelease/viewvc/sourcedeps/yaml-cpp/yaml-cpp-0.2.5.rdmanifest'}
+    squeeze:
+      source: {md5sum: f7fb81fd4a2fbd5022daa7686e816359, uri: 'https://kforge.ros.org/rosrelease/viewvc/sourcedeps/yaml-cpp/yaml-cpp-0.2.5.rdmanifest'}
     source: {md5sum: f7fb81fd4a2fbd5022daa7686e816359, uri: 'https://kforge.ros.org/rosrelease/viewvc/sourcedeps/yaml-cpp/yaml-cpp-0.2.5.rdmanifest'}
   ubuntu:
     quantal: libyaml-cpp-dev
