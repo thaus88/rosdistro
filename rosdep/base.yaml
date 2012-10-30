@@ -1454,6 +1454,7 @@ yaml-cpp:
     apt:
       wheezy: libyaml-cpp-dev
       sid: libyaml-cpp-dev
+      squeeze: libyaml-cpp-dev
     source: {md5sum: f7fb81fd4a2fbd5022daa7686e816359, uri: 'https://kforge.ros.org/rosrelease/viewvc/sourcedeps/yaml-cpp/yaml-cpp-0.2.5.rdmanifest'}
   ubuntu:
     quantal: libyaml-cpp-dev
